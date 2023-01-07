@@ -42,32 +42,42 @@ const MainContent = () => {
       <div style={{ textAlign: "center", marginLeft: "25%", marginTop: "1%" }}>
         <h1 style={{ color: "#F89E1B" }}>EPOCH STAKING</h1>
         <div style={{ display: "flex", flexDirection: "row" }}>
-          <div style={{ marginLeft: "25%", marginTop: "1%" }}>
+          <div style={{ marginLeft: "20%", marginTop: "1.25%" }}>
             <div className="main">
-              <p style={{ marginBottom: "0px" }}>PASS Price</p>{" "}
-              <p classsName="txt">$1520.33</p>
+              <p style={{ marginTop: "10px" }}>PASS Price</p>
+              <h2 className="txt">$1520.33</h2>
             </div>
             <div className="main">
-              <p>Market Cap</p> <p classsName="txt">$1520.33</p>
+              <p style={{ marginTop: "10px" }}>Market Cap</p>
+              <h2 className="txt">$1520.33</h2>
             </div>
             <div className="main">
-              <p>Treasury Balance </p>
-              <p classsName="txt">$1520.33</p>
+              <p style={{ marginTop: "10px" }}> Treasury Balance </p>
+              <h2 className="txt">$1520.33</h2>
             </div>
             <div className="main">
-              <p>Backing per PASS </p>
-              <p classsName="txt">$1520.33</p>
+              <p style={{ marginTop: "10px" }}>Backing per PASS </p>
+              <h2 className="txt">$1520.33</h2>
             </div>
           </div>
-          <div style={{ marginLeft: "15%", marginTop: "1%" }}>
-            <div className="main"><p>Treasury Balance </p>
-              <p classsName="txt">$1520.33</p></div>
-            <div className="main"><p>Treasury Balance </p>
-              <p classsName="txt">$1520.33</p></div>
-            <div className="main"><p>Treasury Balance </p>
-              <p classsName="txt">$1520.33</p></div>
-            <div className="main"><p>Treasury Balance </p>
-              <p classsName="txt">$1520.33</p></div>
+
+          <div style={{ marginLeft: "17%", marginTop: "1%" }}>
+            <div className="main">
+              <p style={{ marginTop: "10px" }}>APR &nbsp; / &nbsp; EPR </p>
+              <h2 className="txt">3280% &nbsp; 3%</h2>
+            </div>
+            <div className="main">
+              <p style={{ marginTop: "10px" }}>Total Value Locked</p>
+              <h2 className="txt">$1520.33</h2>
+            </div>
+            <div className="main">
+              <p style={{ marginTop: "10px" }}>PASS Supply </p>
+              <h2 className="txt">$1520.33</h2>
+            </div>
+            <div className="main">
+              <p style={{ marginTop: "10px" }}>Current Index </p>
+              <h2 className="txt">3.48x</h2>
+            </div>
           </div>
         </div>
       </div>
