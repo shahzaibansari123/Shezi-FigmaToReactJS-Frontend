@@ -1,0 +1,18 @@
+.main{
+    color: white;
+    height: 10vh;
+    width: 200%;
+    border: 2px solid;
+    border-color: white;
+    border-radius: 20px;
+    background-color: black;
+    opacity: 0.8;
+    margin: 10px 10px;
+}
+
+.txt{
+    margin-top: 0px;
+    font-weight: bold;
+    font-size: 16px;
+
+}

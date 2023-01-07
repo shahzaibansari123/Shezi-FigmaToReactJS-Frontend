@@ -6,7 +6,8 @@ import MenuList from "@mui/material/MenuList";
 import MenuItem from "@mui/material/MenuItem";
 import ListItemText from "@mui/material/ListItemText";
 import ListItemIcon from "@mui/material/ListItemIcon";
-import { textAlign } from "@mui/system";
+import Box from '@mui/material/Box';
+import Link from '@mui/material/Link';
 
 const Sidebar = () => {
   return (
@@ -21,8 +22,8 @@ const Sidebar = () => {
             width="100%"
           />
 
-          <MenuList sx={{ width: "100%", display: "block", marginTop: "40%", paddingLeft: "5px", paddingRight: '5px' }}>
-           <MenuItem sx={{ marginTop: "5px" , fontSize:"2px"}}>
+          <MenuList sx={{ width: "100%", display: "block", marginTop: "45%", paddingLeft: "5px", paddingRight: '5px' }}>
+           <MenuItem sx={{ marginTop: "0px" , fontSize:"2px"}}>
               <ListItemIcon sx={{ marginLeft: "20px" }}>
                 <svg
                   width="20"
@@ -38,12 +39,12 @@ const Sidebar = () => {
                 </svg>
               </ListItemIcon>
               <ListItemText
-                sx={{ color: "white",fontFamily: "Jost",  marginLeft: "10px" }}
+                sx={{ color: "white",fontFamily: "Jost",  marginLeft: "10px" ,}}
               >
                 Dashboard
               </ListItemText>
             </MenuItem>
-           <MenuItem sx={{ marginTop: "5px" , fontSize:"2px"}}>
+           <MenuItem sx={{ marginTop: "0px" , fontSize:"2px"}}>
               <ListItemIcon sx={{ marginLeft: "20px" }}>
                 <svg
                   width="20"
@@ -121,7 +122,7 @@ const Sidebar = () => {
                 Analytics
               </ListItemText>
             </MenuItem>
-           <MenuItem sx={{ marginTop: "5px" , fontSize:"2px"}}>
+           <MenuItem sx={{ marginTop: "0px" , fontSize:"2px"}}>
               <ListItemIcon sx={{ marginLeft: "20px" }}>
                 <svg
                   width="20"
@@ -143,7 +144,7 @@ const Sidebar = () => {
               </ListItemText>
             </MenuItem>
 
-           <MenuItem sx={{ marginTop: "5px" , fontSize:"2px"}}>
+           <MenuItem sx={{ marginTop: "0px" , fontSize:"2px"}}>
               <ListItemIcon sx={{ marginLeft: "20px" }}>
                 <svg
                   width="20"
@@ -168,7 +169,7 @@ const Sidebar = () => {
 
 
 
-           <MenuItem sx={{ marginTop: "5px" , fontSize:"2px"}}>
+           <MenuItem sx={{ marginTop: "0px" , fontSize:"2px"}}>
               <ListItemText
                 sx={{ color: "gray",fontFamily: "Jost",  marginLeft: "65px" }}
               >
@@ -176,66 +177,66 @@ const Sidebar = () => {
               </ListItemText>
             </MenuItem>
 
-           <MenuItem sx={{ marginTop: "5px" , fontSize:"2px", display: "flex", flexDirection:"row"}}>
+           <MenuItem sx={{ marginTop: "0px" , fontSize:"2px", display: "flex", flexDirection:"row"}}>
               <ListItemText
                 sx={{ color: "white",fontFamily: "Jost",  marginLeft: "65px" }}
               >
                 XIV-BNB LP
               </ListItemText>
               <ListItemText
-                sx={{ color: "white",fontFamily: "Jost",  textAlign: "right" }}
+                sx={{ color: "white",fontFamily: "Jost",  textAlign: "right", marginRight: '10px' }}
               >
                 -16.28%
               </ListItemText>
             </MenuItem>
 
-           <MenuItem sx={{ marginTop: "5px" , fontSize:"2px", display: "flex", flexDirection:"row"}}>
+           <MenuItem sx={{ marginTop: "0px" , fontSize:"2px", display: "flex", flexDirection:"row"}}>
               <ListItemText
                 sx={{ color: "white",fontFamily: "Jost",  marginLeft: "65px" }}
               >
                 PASS-BNB LP
               </ListItemText>
               <ListItemText
-                sx={{ color: "white",fontFamily: "Jost",  textAlign: "right" }}
+                sx={{ color: "white",fontFamily: "Jost",  textAlign: "right" , marginRight: '10px'}}
               >
                 -16.28%
               </ListItemText>
             </MenuItem>
 
-           <MenuItem sx={{ marginTop: "5px" , fontSize:"2px", display: "flex", flexDirection:"row"}}>
+           <MenuItem sx={{ marginTop: "0px" , fontSize:"2px", display: "flex", flexDirection:"row"}}>
               <ListItemText
                 sx={{ color: "white",fontFamily: "Jost",  marginLeft: "65px" }}
               >
                 XIV
               </ListItemText>
               <ListItemText
-                sx={{ color: "white",fontFamily: "Jost",  textAlign: "right" }}
+                sx={{ color: "white",fontFamily: "Jost",  textAlign: "right" , marginRight: '10px'}}
               >
                 -16.28%
               </ListItemText>
             </MenuItem>
 
-           <MenuItem sx={{ marginTop: "5px" , fontSize:"2px", display: "flex", flexDirection:"row"}}>
+           <MenuItem sx={{ marginTop: "0px" , fontSize:"2px", display: "flex", flexDirection:"row"}}>
               <ListItemText
                 sx={{ color: "white",fontFamily: "Jost",  marginLeft: "65px" }}
               >
                 BNB
               </ListItemText>
               <ListItemText
-                sx={{ color: "white",fontFamily: "Jost",  textAlign: "right" }}
+                sx={{ color: "white",fontFamily: "Jost",  textAlign: "right" ,  marginRight: '10px'}}
               >
                 -16.28%
               </ListItemText>
             </MenuItem>
 
-           <MenuItem sx={{ marginTop: "5px" , fontSize:"2px", display: "flex", flexDirection:"row"}}>
+           <MenuItem sx={{ marginTop: "0px" , fontSize:"2px", display: "flex", flexDirection:"row"}}>
               <ListItemText
                 sx={{ color: "white",fontFamily: "Jost",  marginLeft: "65px" }}
               >
                 BUSD
               </ListItemText>
               <ListItemText
-                sx={{ color: "white",fontFamily: "Jost",  textAlign: "right" }}
+                sx={{ color: "white",fontFamily: "Jost",  textAlign: "right" , marginRight: '10px'}}
               >
                 -16.28%
               </ListItemText>
@@ -244,7 +245,7 @@ const Sidebar = () => {
 
           
 
-         <MenuItem sx={{ marginTop: "5px" , fontSize:"2px"}}>
+         <MenuItem sx={{ marginTop: "0px" , fontSize:"2px"}}>
             <ListItemIcon sx={{ marginLeft: "20px" }}>
               <svg
                 width="20"
@@ -269,7 +270,7 @@ const Sidebar = () => {
             </ListItemText>
           </MenuItem>
 
-         <MenuItem sx={{ marginTop: "5px" , fontSize:"2px"}}>
+         <MenuItem sx={{ marginTop: "0px" , fontSize:"2px"}}>
             <ListItemIcon sx={{ marginLeft: "20px" }}>
               <svg
                 width="20"
@@ -291,7 +292,7 @@ const Sidebar = () => {
             </ListItemText>
           </MenuItem>
 
-         <MenuItem sx={{ marginTop: "5px" , fontSize:"2px"}}>
+         <MenuItem sx={{ marginTop: "0px" , fontSize:"2px"}}>
             <ListItemIcon sx={{ marginLeft: "20px" }}>
               <svg
                 width="20"
@@ -313,10 +314,39 @@ const Sidebar = () => {
             </ListItemText>
           </MenuItem>
           </MenuList>
+          
+    <Box
+      sx={{
+        flexDirection: "row",
+       justifyContent: "space-evenly",
+       marginLeft: "60px", 
+       marginRight: "0px",
+       marginTop: "35px",
+      }}
+    
+    >
+      <Link sx={{margin: "0px 20px"}} href="#"><svg width="26" height="21" viewBox="0 0 26 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M25.1609 2.95087C24.2363 3.36058 23.243 3.63741 22.1988 3.76254C23.2763 3.11785 24.0823 2.10318 24.4666 0.90786C23.4544 1.50912 22.3465 1.93235 21.1912 2.15913C20.4143 1.3296 19.3852 0.779772 18.2638 0.595013C17.1423 0.410254 15.9913 0.600901 14.9893 1.13736C13.9874 1.67381 13.1905 2.52606 12.7225 3.56178C12.2546 4.59751 12.1416 5.75876 12.4012 6.86525C10.3501 6.76227 8.34361 6.22915 6.51187 5.3005C4.68014 4.37185 3.06413 3.06842 1.76874 1.47481C1.32581 2.23886 1.07113 3.12472 1.07113 4.06816C1.07064 4.91747 1.27979 5.75377 1.68002 6.50286C2.08026 7.25196 2.65921 7.89068 3.3655 8.36235C2.54639 8.33629 1.74535 8.11496 1.02905 7.71678V7.78322C1.02897 8.97441 1.44101 10.129 2.19526 11.0509C2.94952 11.9729 3.99952 12.6055 5.16711 12.8415C4.40725 13.0471 3.61059 13.0774 2.83731 12.9301C3.16673 13.955 3.80843 14.8513 4.67255 15.4934C5.53667 16.1356 6.57997 16.4914 7.65638 16.5111C5.82911 17.9456 3.57245 18.7237 1.24941 18.7202C0.837907 18.7204 0.426753 18.6963 0.0180664 18.6483C2.37608 20.1644 5.12098 20.969 7.92435 20.9659C17.4141 20.9659 22.6019 13.1061 22.6019 6.28945C22.6019 6.06798 22.5964 5.8443 22.5864 5.62284C23.5955 4.89308 24.4665 3.98942 25.1587 2.95419L25.1609 2.95087Z" fill="white"/>
+</svg>
+</Link>
+      <Link sx={{margin: "0px 20px"}} href="#"><svg width="26" height="20" viewBox="0 0 26 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M21.4935 2.28084C19.8906 1.55798 18.1725 1.0237 16.3759 0.719888C16.3599 0.716816 16.3433 0.718795 16.3285 0.725552C16.3136 0.732309 16.3013 0.74351 16.2931 0.757602C16.0731 1.14417 15.828 1.64808 15.6561 2.04617C13.7506 1.76147 11.8134 1.76147 9.90786 2.04617C9.71649 1.60498 9.5007 1.17479 9.26148 0.757602C9.25337 0.743336 9.2411 0.731883 9.22631 0.72477C9.21153 0.717657 9.19492 0.715222 9.17871 0.717792C7.3831 1.0216 5.665 1.55589 4.0611 2.27979C4.0473 2.28558 4.0356 2.29545 4.02757 2.30808C0.767381 7.10094 -0.126238 11.7754 0.312714 16.3912C0.313935 16.4025 0.317444 16.4135 0.323028 16.4234C0.328611 16.4333 0.336151 16.4419 0.34519 16.4488C2.24808 17.8342 4.3705 18.8896 6.62357 19.5707C6.63928 19.5756 6.65608 19.5756 6.67178 19.5707C6.68747 19.5658 6.70134 19.5564 6.71157 19.5435C7.19557 18.894 7.62719 18.2078 7.99595 17.487C8.01795 17.4451 7.997 17.3948 7.953 17.3781C7.27624 17.1232 6.62052 16.8157 5.99186 16.4583C5.98056 16.4518 5.97104 16.4427 5.96415 16.4316C5.95727 16.4206 5.95323 16.408 5.9524 16.3951C5.95157 16.3821 5.95397 16.3691 5.9594 16.3573C5.96482 16.3454 5.97309 16.3352 5.98348 16.3273C6.11548 16.2299 6.24748 16.1283 6.37319 16.0267C6.38451 16.0175 6.39814 16.0117 6.41256 16.0098C6.42699 16.008 6.44165 16.0102 6.4549 16.0162C10.5689 17.8642 15.0244 17.8642 19.0902 16.0162C19.1035 16.0098 19.1183 16.0074 19.133 16.009C19.1476 16.0107 19.1615 16.0164 19.173 16.0256C19.2987 16.1283 19.4297 16.2299 19.5627 16.3273C19.5732 16.335 19.5816 16.3451 19.5872 16.3569C19.5928 16.3686 19.5954 16.3815 19.5948 16.3945C19.5942 16.4075 19.5903 16.4201 19.5836 16.4312C19.5769 16.4423 19.5676 16.4516 19.5564 16.4583C18.93 16.8186 18.2783 17.1235 17.5942 17.377C17.5837 17.3808 17.5742 17.3869 17.5662 17.3947C17.5582 17.4025 17.5519 17.4119 17.5479 17.4223C17.5438 17.4327 17.542 17.4439 17.5426 17.455C17.5432 17.4662 17.5461 17.4771 17.5513 17.487C17.9284 18.2067 18.36 18.8919 18.8346 19.5425C18.8445 19.5558 18.8582 19.5658 18.874 19.571C18.8897 19.5763 18.9067 19.5766 18.9226 19.5718C21.1796 18.8926 23.3054 17.8367 25.2104 16.4488C25.2197 16.4423 25.2275 16.4339 25.2333 16.4242C25.2391 16.4144 25.2427 16.4035 25.244 16.3923C25.7678 11.0557 24.366 6.41894 21.526 2.31017C21.519 2.29682 21.5075 2.28641 21.4935 2.28084ZM8.61091 13.5805C7.37262 13.5805 6.35119 12.4606 6.35119 11.0871C6.35119 9.71265 7.35272 8.59379 8.61091 8.59379C9.87852 8.59379 10.8905 9.72208 10.8706 11.0871C10.8706 12.4616 9.8691 13.5805 8.61091 13.5805ZM16.9657 13.5805C15.7263 13.5805 14.706 12.4606 14.706 11.0871C14.706 9.71265 15.7064 8.59379 16.9657 8.59379C18.2333 8.59379 19.2453 9.72208 19.2254 11.0871C19.2254 12.4616 18.2343 13.5805 16.9657 13.5805Z" fill="white"/>
+</svg>
+</Link>
+      <Link sx={{margin: "0px 20px"}} href="#"><svg width="30" height="26" viewBox="0 0 30 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M28.5418 2.52637L3.39893 12.5835L26.6561 22.6407L28.5418 2.52637ZM13.4561 24.5264L17.2275 18.8692L13.4561 24.5264ZM20.3704 10.6978L12.1989 16.3549L13.2788 23.9129C13.3769 24.5993 13.5504 24.588 13.6635 23.9091L14.7132 17.6121L20.3704 10.6978Z" fill="#2B2B2B" stroke="white" stroke-width="2"/>
+</svg>
+</Link>
+    </Box>
         </div>
       </div>
+
     </>
   );
 };
 
 export default Sidebar;
+
+
+
+
